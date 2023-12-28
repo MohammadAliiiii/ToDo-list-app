@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ToDo-list</title>
+</head>
+<body>
+    <div class="outer">
+
+        <div class="navBar">
+            <p><a class="p" href="index.html">Home</a></p>
+            <p><a class="p" href="about.html">About</a></p>
+            <p><a class="p" href="contact.html">Contact</a></p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="todo-app">
+            <div class="heading">
+
+                <img src="icon.png" alt="Logo.png">
+                <h2>To-Do list</h2>
+            </div>
+            <div class="input">
+                <input type="text" placeholder="Add your Text" id="inputBox"><button id="add" onclick="addTask()">Add ToDo</button>
+            </div>
+            <ul id="listContainer">
+                <!-- <li class="checked">Task 1</li>
+                <li >Task 1</li>
+                <li >Task 1</li> -->
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
